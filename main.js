@@ -16,9 +16,7 @@ function adicionaContato() {
     const nomeContatoInput = document.getElementById('nome-contato');
     const numeroContatoInput = document.getElementById('numero-contato');
 
-    if(nomeContato.includes(nomeContatoInput.value)) {
-        alert(`O contato ${nomeContato} já foi adicionado anteriormente.`)
-    } else if (numeroContato.includes(numeroContatoInput.value)){
+    if(numeroContato.includes(numeroContatoInput.value)) {
         alert(`O número ${numeroContato} já foi adicionado à outro contato.`)
     } else {
     nomeContato.push(nomeContatoInput.value);
